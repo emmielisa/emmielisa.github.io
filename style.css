@@ -1,0 +1,36 @@
+
+body {
+    background-color: #f4eee7;
+}
+
+.header h1{
+    background-color: #8F6F55;
+    text-align: center;
+    color: #f4eee7;
+    font: 40px Playfair Display;
+    padding: 70px 70px;
+    width: 90%;
+    margin: auto;
+}
+
+.header h2 {
+    color:#8F6F55;
+    font: 28px Playfair Display;
+    width: 90%;
+    margin: auto;
+}
+
+.lead {
+    width: 90%;
+    margin: auto;
+    color:#8F6F55;
+    font: 20px Playfair Display;
+    padding: 30px;
+}
+
+.content {
+    width: 90%;
+    margin: auto;
+    color:#8F6F55;
+    font: 17px Playfair Display;
+}
