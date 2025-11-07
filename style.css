@@ -1,8 +1,9 @@
-
+/*Taustan väri */
 body {
     background-color: #f4eee7;
 }
 
+/*Pääotsikot*/
 .header h1{
     background-color: #8F6F55;
     text-align: center;
@@ -13,6 +14,7 @@ body {
     margin: auto;
 }
 
+/*Väliotsikot*/
 .header h2 {
     color:#8F6F55;
     font: 28px Playfair Display;
@@ -20,6 +22,7 @@ body {
     margin: auto;
 }
 
+/*Alkuteksti pääotsikon jälkeen*/
 .lead {
     width: 90%;
     margin: auto;
@@ -28,6 +31,7 @@ body {
     padding: 30px;
 }
 
+/*Leipäteksti*/
 .content {
     width: 90%;
     margin: auto;
