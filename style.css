@@ -5,19 +5,21 @@ body {
 
 /*Etusivu: Pääotsikot*/
 .etusivu h1{
-    background-color: #8F6F55;
+    background-image:url("kansikuva.jpg");
+    background-position: center;
+    background-size: cover;
     text-align: center;
     color: #f4eee7;
     font: 40px Playfair Display;
-    padding: 70px 70px;
-    width: 90%;
+    padding: 150px 80px 150px 80px;
+    width: 80%;
     margin: auto;
     text-shadow: 2px 2px 4px #000000;
 }
 
 /*Etusivu: Väliotsikot*/
 .etusivu h2 {
-    color:#8F6F55;
+    color:#412f26;
     font: 28px Playfair Display;
     width: 90%;
     margin: auto;
