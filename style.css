@@ -3,8 +3,8 @@ body {
     background-color: #f4eee7;
 }
 
-/*Pääotsikot*/
-.header h1{
+/*Etusivu: Pääotsikot*/
+.etusivu h1{
     background-color: #8F6F55;
     text-align: center;
     color: #f4eee7;
@@ -14,8 +14,8 @@ body {
     margin: auto;
 }
 
-/*Väliotsikot*/
-.header h2 {
+/*Etusivu: Väliotsikot*/
+.etusivu h2 {
     color:#8F6F55;
     font: 28px Playfair Display;
     width: 90%;
@@ -33,6 +33,47 @@ body {
 
 /*Leipäteksti*/
 .content {
+    width: 90%;
+    margin: auto;
+    color:#8F6F55;
+    font: 17px Playfair Display;
+}
+
+.palvelut h1{
+    background-color: #8F6F55;
+    text-align: center;
+    color: #f4eee7;
+    font: 40px Playfair Display;
+    padding: 70px 70px;
+    width: 90%;
+    margin: auto;
+}
+
+.palvelut h2{
+    color:#8F6F55;
+    font: 28px Playfair Display;
+    width: 90%;
+    margin: auto;
+}
+
+.yhteystiedot h1{
+    background-color: #8F6F55;
+    text-align: center;
+    color: #f4eee7;
+    font: 40px Playfair Display;
+    padding: 70px 70px;
+    width: 90%;
+    margin: auto;
+}
+
+.yhteystiedot h2{
+    color:#8F6F55;
+    font: 28px Playfair Display;
+    width: 90%;
+    margin: auto;
+}
+
+.linkki {
     width: 90%;
     margin: auto;
     color:#8F6F55;
