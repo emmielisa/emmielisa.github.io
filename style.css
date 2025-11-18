@@ -36,6 +36,13 @@ body {
     font-style: italic;
 }
 
+#huom {
+    font: 15px Playfair Display;
+    font-variant: small-caps;
+    font-weight: bold;
+    color:#412f26;
+}
+
 /*Leipäteksti*/
 .content {
     width: 90%;
@@ -56,10 +63,22 @@ body {
 }
 
 .palvelut h2{
-    color:#8F6F55;
+    color:#412f26;
     font: 28px Playfair Display;
     width: 90%;
     margin: auto;
+}
+
+#taulukko, td, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 8px;
+    height: 40px;
+}
+
+#taulukko tr:nth-child(even) {   /*Muotoillaan taulukon joka toinen rivi tummemmaksi*/
+  background-color: #8F6F55;
+  color: #f4eee7;
 }
 
 .yhteystiedot h1{
@@ -73,7 +92,7 @@ body {
 }
 
 .yhteystiedot h2{
-    color:#8F6F55;
+    color:#412f26;
     font: 28px Playfair Display;
     width: 90%;
     margin: auto;
@@ -84,4 +103,17 @@ body {
     margin: auto;
     color:#8F6F55;
     font: 17px Playfair Display;
+}
+
+.kuva {
+    float: right;
+    width: 230px;
+    height:140px;
+    clip-path: ellipse(50% 40%);
+}
+
+#kartta {
+    float: right;
+    width: 300px;
+    height:200px;
 }
