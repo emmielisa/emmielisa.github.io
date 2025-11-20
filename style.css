@@ -23,12 +23,15 @@ header h1{
     text-shadow: 2px 2px 4px #000000;}
 
 /*Navigaatiopalkki */
+
+
 ul {
     list-style-type: none;
     width: 50%;
     margin: auto;
     background-color:#ad947e;
-    display: flex;}
+    display: flex;
+    justify-content: center;}
 
 ul li a {
     display: block;
@@ -42,7 +45,6 @@ ul li a:hover:not(.active) {
 
 ul li a.active {
     background-color: #412f26;}
-
 
 /*Etusivu: Väliotsikot*/
 .etusivu h2 {
@@ -166,15 +168,103 @@ ul li a.active {
     font: 17px Playfair Display;
 }
 
-.kuva {
-    float: right;
-    width: 230px;
-    height:140px;
-    clip-path: ellipse(50% 40%);
-}
-
 #kartta {
-    float: right;
     width: 300px;
     height:200px;
+    float: right;
+}
+
+/*Tabletti*/
+@media only screen and (min-width: 700px) {
+    .column img {
+        width: 350px;
+        height:200px;}
+    header {
+        padding: 130px 80px 130px 80px;
+        width: 70%;}
+    header h1{
+        font: 55px Playfair Display;}
+    .etusivu h2 {
+        width: 60%;}  
+    .lead {
+        width: 60%;}
+    ul {
+        width: 60%;}
+    .content {
+        width: 60%;}
+    .column {
+        width: 60%;}
+    #esittely {
+        width: 60%;}
+    #kipukuva {
+        width: 20%;}
+
+    .palvelut {
+        padding: 130px 80px 130px 80px;
+        width: 70%;}
+    .palvelut h1{
+        font: 55px Playfair Display;}
+    .palvelut2 h2{
+        width: 60%;}
+    #taulukko{
+        width: 90%;} 
+    #jalat{
+        width: 15%;}
+    
+    .yhteystiedot {
+        padding: 130px 80px 130px 80px;
+        width: 70%;}
+    .yhteystiedot h1{
+        font: 55px Playfair Display;}
+    #yhteystiedot h2{
+        width: 60%;}
+    }
+
+/*Tietokoneen näyttö*/
+@media only screen and (min-width: 1025px) {
+    .column img {
+        width: 450px;
+        height:300px;}
+    header {
+        padding: 200px 80px 200px 80px;
+        width: 90%;}
+    header h1{
+        font: 60px Playfair Display;}
+    .etusivu h2 {
+        width: 70%;}  
+    .lead {
+        width: 70%;}
+    ul {
+        width: 70%;}
+    .content {
+        width: 70%;}
+    .column {
+        width: 70%;}
+    #esittely {
+        width: 50%;}
+    #kipukuva {
+        width: 40%;}
+
+    .palvelut {
+        padding: 200px 80px 200px 80px;
+        width: 90%;}
+    .palvelut h1{
+        font: 60px Playfair Display;}
+    .palvelut2 h2{
+        width: 70%;}
+    #taulukko{
+        width: 90%;} 
+    #jalat{
+        width: 20%;}
+    
+    .yhteystiedot {
+        padding: 200px 80px 200px 80px;
+        width: 90%;}
+    .yhteystiedot h1{
+        font: 60px Playfair Display;}
+    #yhteystiedot h2{
+        width: 70%;}
+    
+   
+    
 }
