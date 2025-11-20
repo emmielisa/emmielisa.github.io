@@ -3,31 +3,58 @@ body {
     background-color: #f4eee7;
 }
 
-/*Etusivu: Pääotsikot*/
-.etusivu h1{
+/*Etusivu: Pääotsikko*/
+header {
     background-image:url("kansikuva.jpg");
     background-position: center;
-    background-size: cover;
+    background-size: auto;
+    background-repeat: no-repeat;
+    padding: 150px 70px 200px 70px;
+    width: 70%;
+    margin: auto;
+    filter: opacity(70%)}
+
+header h1{
     text-align: center;
     color: #f4eee7;
     font: 40px Playfair Display;
-    padding: 150px 80px 150px 80px;
-    width: 80%;
+    text-align: center;
     margin: auto;
-    text-shadow: 2px 2px 4px #000000;
-}
+    text-shadow: 2px 2px 4px #000000;}
+
+/*Navigaatiopalkki */
+ul {
+    list-style-type: none;
+    width: 50%;
+    margin: auto;
+    background-color:#ad947e;
+    display: flex;}
+
+ul li a {
+    display: block;
+    color: #f4eee7;
+    font: Playfair Display;
+    padding: 14px 16px;
+    text-decoration: none;}
+
+ul li a:hover:not(.active) {
+    background-color: #412f26;}
+
+ul li a.active {
+    background-color: #412f26;}
+
 
 /*Etusivu: Väliotsikot*/
 .etusivu h2 {
     color:#412f26;
     font: 28px Playfair Display;
-    width: 90%;
+    width: 50%;
     margin: auto;
 }
 
 /*Alkuteksti pääotsikon jälkeen*/
 .lead {
-    width: 90%;
+    width: 50%;
     margin: auto;
     color:#8F6F55;
     font: 20px Playfair Display;
@@ -40,66 +67,100 @@ body {
     font: 15px Playfair Display;
     font-variant: small-caps;
     font-weight: bold;
-    color:#412f26;
+    color:#412f26
 }
 
 /*Leipäteksti*/
 .content {
-    width: 90%;
+    width: 50%;
     margin: auto;
+    padding: 20px;
     color:#8F6F55;
     font: 17px Playfair Display;
     text-align: justify;
 }
 
+.column {
+    float: left;
+    width: 50%;  
+}
+
+.column img {
+    width: 450px;
+    height:300px;
+    clip-path: circle();
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*Palvelut-sivun pääotsikko */
+.palvelut {
+    background-image:url("lehdet.jpg");
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    padding: 150px 70px 200px 70px;
+    width: 70%;
+    margin: auto;
+    filter: opacity(70%)}
+
 .palvelut h1{
-    background-color: #8F6F55;
     text-align: center;
     color: #f4eee7;
     font: 40px Playfair Display;
-    padding: 70px 70px;
-    width: 90%;
+    text-align: center;
     margin: auto;
-}
+    text-shadow: 2px 2px 4px #000000;}
 
-.palvelut h2{
+.palvelut2 h2{
     color:#412f26;
     font: 28px Playfair Display;
-    width: 90%;
-    margin: auto;
-}
+    width: 50%;
+    margin: auto;}
 
+
+/*Palvelut-sivun taulukko */
 #taulukko, td, th {
     border: 1px solid black;
     border-collapse: collapse;
     padding: 8px;
-    height: 40px;
-}
+    height: 40px;}
 
 #taulukko tr:nth-child(even) {   /*Muotoillaan taulukon joka toinen rivi tummemmaksi*/
   background-color: #8F6F55;
-  color: #f4eee7;
-}
+  color: #f4eee7;}
+
+
+/*Yhteystieto -sivun pääotsikko*/
+.yhteystiedot {
+    background-image:url("lehdet.jpg");
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    padding: 150px 70px 200px 70px;
+    width: 70%;
+    margin: auto;
+    filter: opacity(70%)}
 
 .yhteystiedot h1{
-    background-color: #8F6F55;
     text-align: center;
     color: #f4eee7;
     font: 40px Playfair Display;
-    padding: 70px 70px;
-    width: 90%;
+    text-align: center;
     margin: auto;
-}
+    text-shadow: 2px 2px 4px #000000;}
 
-.yhteystiedot h2{
+#yhteystiedot h2{
     color:#412f26;
     font: 28px Playfair Display;
-    width: 90%;
-    margin: auto;
-}
+    width: 50%;
+    margin: auto;}
 
 .linkki {
-    width: 90%;
+    width: 50%;
     margin: auto;
     color:#8F6F55;
     font: 17px Playfair Display;
