@@ -129,12 +129,12 @@ li a.active {
 #kartta {
     width: 300px;
     height:200px;
-    float: right;}
+    }
 
 /*Kännykkä*/
 @media only screen and (max-width: 767px) {
     nav{
-        width: 50%;
+        
         margin: auto;}
 
     .column img {
@@ -146,15 +146,15 @@ li a.active {
     header h1{
         font: 40px "Playfair Display";}
     .etusivu h2 {
-        width: 45%;}  
+        width: 60%;}  
     .lead {
-        width: 45%;}
+        width: 60%;}
     ul {
-        width: 45%;}
+        width: 60%;}
     .content {
-        width: 45%;}
+        width: 60%;}
     #kipukuva {
-        width: 45%;}
+        width: 60%;}
 
     .palvelut {
         padding: 60px 30px 60px 30px;
@@ -162,7 +162,7 @@ li a.active {
     .palvelut h1{
         font: 40px "Playfair Display";}
     .palvelut2 h2{
-        width: 45%;}
+        width: 60%;}
     
     .yhteystiedot {
         padding: 60px 30px 60px 30px;
@@ -170,7 +170,10 @@ li a.active {
     .yhteystiedot h1{
         font: 40px "Playfair Display";}
     #yhteystiedot h2{
-        width: 45%;}
+        width: 60%;}
+    #kartta {
+        width: 200px;
+        height:100px;}   
     }
 
 /*Tabletti*/
