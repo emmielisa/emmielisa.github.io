@@ -1,7 +1,6 @@
 /*Taustan väri */
 body {
-    background-color: #f4eee7;
-}
+    background-color: #f4eee7;}
 
 /*Etusivu: Pääotsikko*/
 header {
@@ -9,94 +8,68 @@ header {
     background-position: center;
     background-size: auto;
     background-repeat: no-repeat;
-    padding: 150px 70px 200px 70px;
-    width: 70%;
     margin: auto;
     filter: opacity(70%)}
 
 header h1{
     text-align: center;
     color: #f4eee7;
-    font: 40px Playfair Display;
     text-align: center;
     margin: auto;
     text-shadow: 2px 2px 4px #000000;}
 
 /*Navigaatiopalkki */
-
-
 ul {
     list-style-type: none;
     width: 50%;
     margin: auto;
-    background-color:#ad947e;
-    display: flex;
-    justify-content: center;}
+    overflow: hidden;
+    background-color:#ad947e;}
 
-ul li a {
+li a {
     display: block;
     color: #f4eee7;
     font: Playfair Display;
     padding: 14px 16px;
     text-decoration: none;}
 
-ul li a:hover:not(.active) {
+li a:hover:not(.active) {
     background-color: #412f26;}
 
-ul li a.active {
+li a.active {
     background-color: #412f26;}
 
 /*Etusivu: Väliotsikot*/
 .etusivu h2 {
     color:#412f26;
     font: 28px Playfair Display;
-    width: 50%;
-    margin: auto;
-}
+    margin: auto;}
 
 /*Alkuteksti pääotsikon jälkeen*/
 .lead {
-    width: 50%;
     margin: auto;
     color:#8F6F55;
     font: 20px Playfair Display;
     padding: 30px;
     text-align: justify;
-    font-style: italic;
-}
+    font-style: italic;}
 
 #huom {
     font: 15px Playfair Display;
     font-variant: small-caps;
     font-weight: bold;
-    color:#412f26
-}
+    color:#412f26}
 
 /*Leipäteksti*/
 .content {
-    width: 50%;
     margin: auto;
     padding: 20px;
     color:#8F6F55;
     font: 17px Playfair Display;
-    text-align: justify;
-}
-
-.column {
-    float: left;
-    width: 50%;  
-}
+    text-align: justify;}
 
 .column img {
-    width: 450px;
-    height:300px;
-    clip-path: circle();
-}
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
+    clip-path: circle();}
 
 /*Palvelut-sivun pääotsikko */
 .palvelut {
@@ -104,15 +77,12 @@ ul li a.active {
     background-position: center;
     background-size: auto;
     background-repeat: no-repeat;
-    padding: 150px 70px 200px 70px;
-    width: 70%;
     margin: auto;
     filter: opacity(70%)}
 
 .palvelut h1{
     text-align: center;
     color: #f4eee7;
-    font: 40px Playfair Display;
     text-align: center;
     margin: auto;
     text-shadow: 2px 2px 4px #000000;}
@@ -120,7 +90,6 @@ ul li a.active {
 .palvelut2 h2{
     color:#412f26;
     font: 28px Playfair Display;
-    width: 50%;
     margin: auto;}
 
 
@@ -142,15 +111,12 @@ ul li a.active {
     background-position: center;
     background-size: auto;
     background-repeat: no-repeat;
-    padding: 150px 70px 200px 70px;
-    width: 70%;
     margin: auto;
     filter: opacity(70%)}
 
 .yhteystiedot h1{
     text-align: center;
     color: #f4eee7;
-    font: 40px Playfair Display;
     text-align: center;
     margin: auto;
     text-shadow: 2px 2px 4px #000000;}
@@ -158,24 +124,67 @@ ul li a.active {
 #yhteystiedot h2{
     color:#412f26;
     font: 28px Playfair Display;
-    width: 50%;
     margin: auto;}
-
-.linkki {
-    width: 50%;
-    margin: auto;
-    color:#8F6F55;
-    font: 17px Playfair Display;
-}
 
 #kartta {
     width: 300px;
     height:200px;
-    float: right;
-}
+    float: right;}
+
+/*Kännykkä*/
+@media only screen and (max-width: 767px) {
+    li {
+        float: center; }  /*Navigatiopalkki päällekkäin*/
+    nav{
+        width: 50%;
+        margin: auto;}
+
+    .column img {
+        width: 300px;
+        height:170px;}
+    header {
+        padding: 60px 30px 60px 30px;
+        width: 60%;}
+    header h1{
+        font: 40px Playfair Display;}
+    .etusivu h2 {
+        width: 45%;}  
+    .lead {
+        width: 45%;}
+    ul {
+        width: 45%;}
+    .content {
+        width: 45%;}
+    #kipukuva {
+        width: 45%;}
+
+    .palvelut {
+        padding: 60px 30px 60px 30px;
+        width: 60%;}
+    .palvelut h1{
+        font: 40px Playfair Display;}
+    .palvelut2 h2{
+        width: 45%;}
+    
+    .yhteystiedot {
+        padding: 60px 30px 60px 30px;
+        width: 60%;}
+    .yhteystiedot h1{
+        font: 40px Playfair Display;}
+    #yhteystiedot h2{
+        width: 45%;}
+    }
 
 /*Tabletti*/
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 768px) {
+    li {
+        float: left;}
+    .column {
+        float: left; }
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;}
     .column img {
         width: 350px;
         height:200px;}
@@ -255,7 +264,7 @@ ul li a.active {
     #taulukko{
         width: 90%;} 
     #jalat{
-        width: 20%;}
+        width: 10%;}
     
     .yhteystiedot {
         padding: 200px 80px 200px 80px;
@@ -263,8 +272,5 @@ ul li a.active {
     .yhteystiedot h1{
         font: 60px Playfair Display;}
     #yhteystiedot h2{
-        width: 70%;}
-    
-   
-    
-}
+        width: 70%;}    
+    }
