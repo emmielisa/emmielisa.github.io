@@ -29,7 +29,7 @@ ul {
 li a {
     display: block;
     color: #f4eee7;
-    font: Playfair Display;
+    font: 18px "Playfair Display";
     padding: 14px 16px;
     text-decoration: none;}
 
@@ -42,20 +42,20 @@ li a.active {
 /*Etusivu: Väliotsikot*/
 .etusivu h2 {
     color:#412f26;
-    font: 28px Playfair Display;
+    font: 28px "Playfair Display";
     margin: auto;}
 
 /*Alkuteksti pääotsikon jälkeen*/
 .lead {
     margin: auto;
     color:#8F6F55;
-    font: 20px Playfair Display;
+    font: 20px "Playfair Display";
     padding: 30px;
     text-align: justify;
     font-style: italic;}
 
 #huom {
-    font: 15px Playfair Display;
+    font: 15px "Playfair Display";
     font-variant: small-caps;
     font-weight: bold;
     color:#412f26}
@@ -65,7 +65,7 @@ li a.active {
     margin: auto;
     padding: 20px;
     color:#8F6F55;
-    font: 17px Playfair Display;
+    font: 17px "Playfair Display";
     text-align: justify;}
 
 .column img {
@@ -89,7 +89,7 @@ li a.active {
 
 .palvelut2 h2{
     color:#412f26;
-    font: 28px Playfair Display;
+    font: 28px "Playfair Display";
     margin: auto;}
 
 
@@ -123,7 +123,7 @@ li a.active {
 
 #yhteystiedot h2{
     color:#412f26;
-    font: 28px Playfair Display;
+    font: 28px "Playfair Display";
     margin: auto;}
 
 #kartta {
@@ -133,8 +133,6 @@ li a.active {
 
 /*Kännykkä*/
 @media only screen and (max-width: 767px) {
-    li {
-        float: center; }  /*Navigatiopalkki päällekkäin*/
     nav{
         width: 50%;
         margin: auto;}
@@ -146,7 +144,7 @@ li a.active {
         padding: 60px 30px 60px 30px;
         width: 60%;}
     header h1{
-        font: 40px Playfair Display;}
+        font: 40px "Playfair Display";}
     .etusivu h2 {
         width: 45%;}  
     .lead {
@@ -162,7 +160,7 @@ li a.active {
         padding: 60px 30px 60px 30px;
         width: 60%;}
     .palvelut h1{
-        font: 40px Playfair Display;}
+        font: 40px "Playfair Display";}
     .palvelut2 h2{
         width: 45%;}
     
@@ -170,7 +168,7 @@ li a.active {
         padding: 60px 30px 60px 30px;
         width: 60%;}
     .yhteystiedot h1{
-        font: 40px Playfair Display;}
+        font: 40px "Playfair Display";}
     #yhteystiedot h2{
         width: 45%;}
     }
@@ -192,7 +190,7 @@ li a.active {
         padding: 130px 80px 130px 80px;
         width: 70%;}
     header h1{
-        font: 55px Playfair Display;}
+        font: 55px "Playfair Display";}
     .etusivu h2 {
         width: 60%;}  
     .lead {
@@ -202,29 +200,29 @@ li a.active {
     .content {
         width: 60%;}
     .column {
-        width: 60%;}
+        width: 50%;}
     #esittely {
-        width: 60%;}
+        width: 50%;}
     #kipukuva {
-        width: 20%;}
+        width:10%;}
 
     .palvelut {
         padding: 130px 80px 130px 80px;
         width: 70%;}
     .palvelut h1{
-        font: 55px Playfair Display;}
+        font: 55px "Playfair Display";}
     .palvelut2 h2{
         width: 60%;}
     #taulukko{
-        width: 90%;} 
+        width: 100%;} 
     #jalat{
-        width: 15%;}
+        width: 10%;}
     
     .yhteystiedot {
         padding: 130px 80px 130px 80px;
         width: 70%;}
     .yhteystiedot h1{
-        font: 55px Playfair Display;}
+        font: 55px "Playfair Display";}
     #yhteystiedot h2{
         width: 60%;}
     }
@@ -238,7 +236,7 @@ li a.active {
         padding: 200px 80px 200px 80px;
         width: 90%;}
     header h1{
-        font: 60px Playfair Display;}
+        font: 60px "Playfair Display";}
     .etusivu h2 {
         width: 70%;}  
     .lead {
@@ -248,7 +246,7 @@ li a.active {
     .content {
         width: 70%;}
     .column {
-        width: 70%;}
+        width: 50%;}
     #esittely {
         width: 50%;}
     #kipukuva {
@@ -258,7 +256,7 @@ li a.active {
         padding: 200px 80px 200px 80px;
         width: 90%;}
     .palvelut h1{
-        font: 60px Playfair Display;}
+        font: 60px "Playfair Display";}
     .palvelut2 h2{
         width: 70%;}
     #taulukko{
@@ -270,7 +268,7 @@ li a.active {
         padding: 200px 80px 200px 80px;
         width: 90%;}
     .yhteystiedot h1{
-        font: 60px Playfair Display;}
+        font: 60px "Playfair Display";}
     #yhteystiedot h2{
         width: 70%;}    
     }
